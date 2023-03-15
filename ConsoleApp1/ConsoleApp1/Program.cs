@@ -1,6 +1,7 @@
 ﻿using System;
 
 class Program
+    //Задача 1
 //{
 //    static void Main(string[] args)
 //    {
@@ -15,6 +16,9 @@ class Program
 //        Console.WriteLine("Массив в обратном порядке: " + string.Join(", ", arr.Reverse()));
 //    }
 //}
+
+    //Задача 2
+
 //{
 //    static void Main(string[] args)
 //    {
@@ -35,6 +39,9 @@ class Program
 //        Console.WriteLine("Общее количество осадков за январь: " + totalPrecipitation + " мм");
 //    }
 //}
+
+    //Задача 3
+
 //{
 //    static void Main(string[] args)
 //    {
@@ -60,23 +67,25 @@ class Program
 //        Console.WriteLine("Средний вес: " + averageWeight);
 //    }
 //}
-{
-    static void Main(string[] args)
-    {
-        int[] arr = new int[] { -37, 0, 50, 46, 34, 46, -4, 13 }; // Создаем массив с явной инициализацией
 
-        int negativeCount = 0; // Количество отрицательных элементов
+    //Задача 4
 
-        // Считаем количество отрицательных элементов в массиве
-        for (int i = 0; i < arr.Length; i++)
-        {
-            if (arr[i] < 0)
-            {
-                negativeCount++;
-            }
-        }
+//{
+//    static void Main(string[] args)
+//    {
+//        int[] arr = new int[] { -37, 0, 50, 46, 34, 46, -4, 13 }; // Создаем массив с явной инициализацией
 
-        Console.WriteLine("Количество отрицательных элементов в массиве: " + negativeCount);
-    }
-}
+//        int negativeCount = 0; // Количество отрицательных элементов
 
+//        // Считаем количество отрицательных элементов в массиве
+//        for (int i = 0; i < arr.Length; i++)
+//        {
+//            if (arr[i] < 0)
+//            {
+//                negativeCount++;
+//            }
+//        }
+
+//        Console.WriteLine("Количество отрицательных элементов в массиве: " + negativeCount);
+//    }
+//}
