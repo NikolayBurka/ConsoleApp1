@@ -45,19 +45,14 @@ class Program
 //{
 //    static void Main(string[] args)
 //    {
-//        double[] weights = new double[20]; // Создаем массив для хранения весов
-
-//        Random rnd = new Random(); // Создаем объект класса Random для генерации случайных чисел
-
-//        // Заполняем массив случайными вещественными значениями от 50 до 100
+//        double[] weights = new double[20];
+//        Random rnd = new Random();
 //        for (int i = 0; i < 20; i++)
 //        {
 //            weights[i] = rnd.NextDouble() * (100 - 50) + 50;
 //        }
 
-//        double averageWeight = 0; // Средний вес
-
-//        // Считаем средний вес
+//        double averageWeight = 0;
 //        for (int i = 0; i < 20; i++)
 //        {
 //            averageWeight += weights[i];
@@ -73,11 +68,9 @@ class Program
 //{
 //    static void Main(string[] args)
 //    {
-//        int[] arr = new int[] { -37, 0, 50, 46, 34, 46, -4, 13 }; // Создаем массив с явной инициализацией
+//        int[] arr = new int[] { -37, 0, 50, 46, 34, 46, -4, 13 };
 
-//        int negativeCount = 0; // Количество отрицательных элементов
-
-//        // Считаем количество отрицательных элементов в массиве
+//        int negativeCount = 0;
 //        for (int i = 0; i < arr.Length; i++)
 //        {
 //            if (arr[i] < 0)
